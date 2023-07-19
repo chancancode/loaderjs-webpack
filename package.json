@@ -1,0 +1,17 @@
+{
+  "name": "loaderjs-webpack",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "webpack  --config webpack.config.js --mode development"
+  },
+  "dependencies": {
+    "loader.js": "^4.7.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2"
+  }
+}
